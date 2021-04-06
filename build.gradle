@@ -9,7 +9,6 @@ repositories {
 
 def selenideVersion = "5.20.1",
     javaFakerVersion = "1.0.2",
-    jacksonVersion = "2.12.2",
     assertjVersion = "3.19.0",
     allureVersion = "2.13.9",
     slf4jVersion = "1.7.29",
@@ -30,7 +29,6 @@ dependencies {
             "org.aspectj:aspectjweaver:1.9.6",
             "com.codeborne:selenide:$selenideVersion",
             "com.github.javafaker:javafaker:$javaFakerVersion",
-            "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
             "org.assertj:assertj-core:$assertjVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion",
