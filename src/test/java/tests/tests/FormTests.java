@@ -16,7 +16,7 @@ public class FormTests extends TestBase {
     @Test
     @Owner("f27")
     @DisplayName("Successful form test")
-    void SuccessfulFormTest() {
+    void successfulFormTest() {
         formPage = new FormPage();
         formPage.openFormPage()
                 .fillForm(userData)
